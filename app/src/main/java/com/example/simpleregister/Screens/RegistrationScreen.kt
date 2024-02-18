@@ -120,7 +120,8 @@ fun RegistrationScreen(
                         email = email,
                         password = password,
                         onSuccess = { registrationMessage = "Registration Successful. Please login." },
-                        onError = { error -> registrationMessage = error }
+                        onError = { error -> registrationMessage = error },
+                        username = username
                     )
                 }
             },
